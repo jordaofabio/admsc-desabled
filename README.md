@@ -1,0 +1,2 @@
+# admsc
+Painel Administrativo
