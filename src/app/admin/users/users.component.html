@@ -40,9 +40,9 @@
                      </td>                  
                    </tr>
                    
-                   <tr  *ngFor="let user of user; let i=index">
+                   <tr  *ngFor="let user of users; let i=index">
                     <td>
-                      {{user.name}}
+                      {{user.firstname}} {{user.lastname}}
                     </td>
                     <td>
                       {{user.email}}
@@ -51,7 +51,7 @@
                       {{user.phone}}
                     </td>
                     <td>
-                     3
+                      {{user.hierarchical_level}}
                     </td>                  
                   </tr>
                  </tbody>

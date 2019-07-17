@@ -7,7 +7,6 @@ import { UserService } from '../service/user.service';
 
 @NgModule({
   declarations: [UsersComponent],
-  providers: [ UserService ],
   imports: [
     CommonModule,
     UsersRoutingModule
